@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A29BAEB2B82D1D40077CAF8 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1A29BAEA2B82D1D40077CAF8 /* RealityKitContent */; };
+		1A29BAED2B82D1D40077CAF8 /* VisionOSHandTrackingSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29BAEC2B82D1D40077CAF8 /* VisionOSHandTrackingSampleApp.swift */; };
+		1A29BAEF2B82D1D40077CAF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29BAEE2B82D1D40077CAF8 /* ContentView.swift */; };
+		1A29BAF12B82D1D40077CAF8 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29BAF02B82D1D40077CAF8 /* ImmersiveView.swift */; };
+		1A29BAF32B82D1D50077CAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A29BAF22B82D1D50077CAF8 /* Assets.xcassets */; };
+		1A29BAF62B82D1D50077CAF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A29BAF52B82D1D50077CAF8 /* Preview Assets.xcassets */; };
+		1A29BB012B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29BB002B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A29BAFD2B82D1D50077CAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A29BADD2B82D1D40077CAF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A29BAE42B82D1D40077CAF8;
+			remoteInfo = VisionOSHandTrackingSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A29BAE52B82D1D40077CAF8 /* VisionOSHandTrackingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionOSHandTrackingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A29BAE92B82D1D40077CAF8 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		1A29BAEC2B82D1D40077CAF8 /* VisionOSHandTrackingSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSHandTrackingSampleApp.swift; sourceTree = "<group>"; };
+		1A29BAEE2B82D1D40077CAF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A29BAF02B82D1D40077CAF8 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		1A29BAF22B82D1D50077CAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A29BAF52B82D1D50077CAF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A29BAF72B82D1D50077CAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A29BAFC2B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionOSHandTrackingSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A29BB002B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSHandTrackingSampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A29BAE22B82D1D40077CAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A29BAEB2B82D1D40077CAF8 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A29BAF92B82D1D50077CAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A29BADC2B82D1D40077CAF8 = {
+			isa = PBXGroup;
+			children = (
+				1A29BAE72B82D1D40077CAF8 /* VisionOSHandTrackingSample */,
+				1A29BAE82B82D1D40077CAF8 /* Packages */,
+				1A29BAFF2B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests */,
+				1A29BAE62B82D1D40077CAF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A29BAE62B82D1D40077CAF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A29BAE52B82D1D40077CAF8 /* VisionOSHandTrackingSample.app */,
+				1A29BAFC2B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A29BAE72B82D1D40077CAF8 /* VisionOSHandTrackingSample */ = {
+			isa = PBXGroup;
+			children = (
+				1A29BAEC2B82D1D40077CAF8 /* VisionOSHandTrackingSampleApp.swift */,
+				1A29BAEE2B82D1D40077CAF8 /* ContentView.swift */,
+				1A29BAF02B82D1D40077CAF8 /* ImmersiveView.swift */,
+				1A29BAF22B82D1D50077CAF8 /* Assets.xcassets */,
+				1A29BAF72B82D1D50077CAF8 /* Info.plist */,
+				1A29BAF42B82D1D50077CAF8 /* Preview Content */,
+			);
+			path = VisionOSHandTrackingSample;
+			sourceTree = "<group>";
+		};
+		1A29BAE82B82D1D40077CAF8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1A29BAE92B82D1D40077CAF8 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		1A29BAF42B82D1D50077CAF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A29BAF52B82D1D50077CAF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A29BAFF2B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A29BB002B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests.swift */,
+			);
+			path = VisionOSHandTrackingSampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A29BAE42B82D1D40077CAF8 /* VisionOSHandTrackingSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A29BB042B82D1D50077CAF8 /* Build configuration list for PBXNativeTarget "VisionOSHandTrackingSample" */;
+			buildPhases = (
+				1A29BAE12B82D1D40077CAF8 /* Sources */,
+				1A29BAE22B82D1D40077CAF8 /* Frameworks */,
+				1A29BAE32B82D1D40077CAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionOSHandTrackingSample;
+			packageProductDependencies = (
+				1A29BAEA2B82D1D40077CAF8 /* RealityKitContent */,
+			);
+			productName = VisionOSHandTrackingSample;
+			productReference = 1A29BAE52B82D1D40077CAF8 /* VisionOSHandTrackingSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A29BAFB2B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A29BB072B82D1D50077CAF8 /* Build configuration list for PBXNativeTarget "VisionOSHandTrackingSampleTests" */;
+			buildPhases = (
+				1A29BAF82B82D1D50077CAF8 /* Sources */,
+				1A29BAF92B82D1D50077CAF8 /* Frameworks */,
+				1A29BAFA2B82D1D50077CAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A29BAFE2B82D1D50077CAF8 /* PBXTargetDependency */,
+			);
+			name = VisionOSHandTrackingSampleTests;
+			productName = VisionOSHandTrackingSampleTests;
+			productReference = 1A29BAFC2B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A29BADD2B82D1D40077CAF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1A29BAE42B82D1D40077CAF8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1A29BAFB2B82D1D50077CAF8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1A29BAE42B82D1D40077CAF8;
+					};
+				};
+			};
+			buildConfigurationList = 1A29BAE02B82D1D40077CAF8 /* Build configuration list for PBXProject "VisionOSHandTrackingSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A29BADC2B82D1D40077CAF8;
+			productRefGroup = 1A29BAE62B82D1D40077CAF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A29BAE42B82D1D40077CAF8 /* VisionOSHandTrackingSample */,
+				1A29BAFB2B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A29BAE32B82D1D40077CAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A29BAF62B82D1D50077CAF8 /* Preview Assets.xcassets in Resources */,
+				1A29BAF32B82D1D50077CAF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A29BAFA2B82D1D50077CAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A29BAE12B82D1D40077CAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A29BAEF2B82D1D40077CAF8 /* ContentView.swift in Sources */,
+				1A29BAED2B82D1D40077CAF8 /* VisionOSHandTrackingSampleApp.swift in Sources */,
+				1A29BAF12B82D1D40077CAF8 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A29BAF82B82D1D50077CAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A29BB012B82D1D50077CAF8 /* VisionOSHandTrackingSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A29BAFE2B82D1D50077CAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A29BAE42B82D1D40077CAF8 /* VisionOSHandTrackingSample */;
+			targetProxy = 1A29BAFD2B82D1D50077CAF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A29BB022B82D1D50077CAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		1A29BB032B82D1D50077CAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		1A29BB052B82D1D50077CAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOSHandTrackingSample/Preview Content\"";
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.handtracking.VisionOSHandTrackingSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		1A29BB062B82D1D50077CAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOSHandTrackingSample/Preview Content\"";
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.handtracking.VisionOSHandTrackingSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		1A29BB082B82D1D50077CAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.handtracking.VisionOSHandTrackingSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionOSHandTrackingSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionOSHandTrackingSample";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		1A29BB092B82D1D50077CAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.handtracking.VisionOSHandTrackingSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionOSHandTrackingSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionOSHandTrackingSample";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A29BAE02B82D1D40077CAF8 /* Build configuration list for PBXProject "VisionOSHandTrackingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A29BB022B82D1D50077CAF8 /* Debug */,
+				1A29BB032B82D1D50077CAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A29BB042B82D1D50077CAF8 /* Build configuration list for PBXNativeTarget "VisionOSHandTrackingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A29BB052B82D1D50077CAF8 /* Debug */,
+				1A29BB062B82D1D50077CAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A29BB072B82D1D50077CAF8 /* Build configuration list for PBXNativeTarget "VisionOSHandTrackingSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A29BB082B82D1D50077CAF8 /* Debug */,
+				1A29BB092B82D1D50077CAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A29BAEA2B82D1D40077CAF8 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A29BADD2B82D1D40077CAF8 /* Project object */;
+}
