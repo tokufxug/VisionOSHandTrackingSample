@@ -14,8 +14,8 @@ struct VisionOSHandTrackingSampleApp: App {
             ContentView()
         }
 
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
+        ImmersiveSpace(id: "HandTracking") {
+            HandTrackingView()
         }
     }
 }
